@@ -1,0 +1,16 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shopping bag icon -->
+  <path d="M12 14V6C12 4.34315 13.3431 3 15 3H33C34.6569 3 36 4.34315 36 6V14" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M6 14H42L40 42H8L6 14Z" fill="#fff" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Calendar overlay -->
+  <path d="M16 0V5" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 0V5" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M3 8H45" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M44 8V35C44 38.866 40.866 42 37 42H11C7.13401 42 4 38.866 4 35V8C4 4.13401 7.13401 1 11 1H37C40.866 1 44 4.13401 44 8Z" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 26H33" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 33H33" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 26H25" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 33H25" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M16 26H17" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M16 33H17" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
