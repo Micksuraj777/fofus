@@ -5,8 +5,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'ORCI',
-  description: 'ORCI an organisation for small scale development',
+  title: 'Fofus Keychains',
+  description: 'Customised keychains for every occasion',
 }
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <link rel="shortcut icon" href="./orci.png" type="image/x-icon" />
+      <link rel="shortcut icon" href="./fofus.png" type="image/x-icon" />
       <body className='bg-[#f4eee2]'>
         <Navbar />
         <main className="relative overflow-hidden">
