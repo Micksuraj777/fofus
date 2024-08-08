@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <link rel="shortcut icon" href="./orci.png" type="image/x-icon" />
-      <body>
+      <body className='bg-[#f4eee2]'>
         <Navbar />
         <main className="relative overflow-hidden">
           {children}

@@ -5,9 +5,11 @@ import Link from "next/link"
 
 const Navbar = () => {
   return (
-    <nav className="max-container padding-container relative z-30 pt-5">
+    <nav className="max-container">
       <Link href="/">
-        <h1 className="font-light text-5xl pt-4">ORCI</h1>
+        <h1>
+          <img src="/fofus-removebg-preview.png" alt="logo" className="w-[200px] h-[200px]" />
+        </h1>
       </Link>
     </nav>
   )

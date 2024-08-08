@@ -20,7 +20,7 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Research',
+    title: 'Deadpool Keychain',
     icon: '/research.svg',
     description:
       'ORCI specializes in soft robotics, IoT devices, and 3D printing, offering advanced automation, seamless connectivity, and precise prototyping for innovative, efficient industry solutions.',
@@ -28,7 +28,7 @@ export const FEATURES = [
       link:"",
   },
   {
-    title: 'Engineering Documentation',
+    title: '',
     icon: '/doc.svg',
     description:
       "ORCI provides expert research assistance and patent support, including data analysis and precise documentation, to streamline research processes and protect innovations through comprehensive engineering documentation.",
