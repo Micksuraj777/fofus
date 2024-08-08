@@ -1,103 +1,59 @@
 
-
-// NAVIGATION
-export const NAV_LINKS = [
-  { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: '/', key: 'contact_us', label: 'Contact Us' },
-];
-
-// CAMP SECTION
-export const PEOPLE_URL = [
-  '/person-1.png',
-  '/person-2.png',
-  '/person-3.png',
-  '/person-4.png',
-];
-
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Deadpool Keychain',
+    title: 'Classic Keychains',
     icon: '/research.svg',
     description:
-      'ORCI specializes in soft robotics, IoT devices, and 3D printing, offering advanced automation, seamless connectivity, and precise prototyping for innovative, efficient industry solutions.',
-    linkdata:"",
-      link:"",
+      'Timeless designs that never go out of style. Perfect for everyday use and gifting',
+    
   },
   {
-    title: '',
+    title: 'PLA Keychains',
     icon: '/doc.svg',
     description:
-      "ORCI provides expert research assistance and patent support, including data analysis and precise documentation, to streamline research processes and protect innovations through comprehensive engineering documentation.",
-    linkdata:"",
-      link:"",
+      "Browse our collection of durable and stylish PLA keychains. Perfect for personal use or as thoughtful gifts.",
+    
   },
   {
-    title: 'Manufacturing Assistance',
+    title: 'Custom Personal Characters',
     icon: '/man.svg',
     description:
-      "ORCI offers manufacturing assistance with 3D printing, laser engraving, and bending, along with prototyping services, ensuring precision and efficiency in producing custom parts and solutions.",
-    linkdata:"",
-      link:"",
+      "Work with us to design characters that capture your vision and bring them to life with 3D printing.",
   },
   {
-    title: 'Electronics',
+    title: 'Memory & Thought Keychains',
     icon: '/circuit.svg',
     description:
-      "ORCI provides expert PCB design and embedded programming services, delivering precision and innovation in electronics to drive your projects with efficiency and reliability.",
-    linkdata:"",
-      link:"",
+      "Create a keychain that holds personal significance by incorporating your unique ideas and memories.",
   },
   {
-    title: 'Business Assistance',
+    title: 'Shop Name Branding',
     icon: '/buss.svg',
     description:
-      "ORCI offers professional market assessment and startup support, delivering expert business assistance to enhance strategic planning, optimize growth, and drive success in competitive landscapes.",
-    linkdata:"",
-      link:"",
+      "Elevate your brand with custom keychains designed to represent your business. Ideal for promotions, giveaways, or merchandise.",
   },
   {
-    title: 'Portfolio building',
+    title: 'Bulk Orders',
     icon: '/portfolio.png',
     description:
-      "ORCI offers expert portfolio website building services, tailored for professionals seeking to enhance their online presence and stand out in job interviews.",
-    linkdata:"View Sample",
-      link: 'https://mick.portfolio.orci.in/',
+      "Submit your bulk order request and let us handle the details. Enjoy personalized service and high-quality products in large quantities.",
+  },
+  {
+    title: 'Sculptured Pieces',
+    icon: '/portfolio.png',
+    description:
+      "Explore our sculpturing options for detailed and artistic pieces that make a statement. Perfect for custom projects and decorative items.",
   },
 ];
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [
-  // {
-  //   title: 'Learn More',
-  //   links: [
-  //     'About Hilink',
-  //     'Press Releases',
-  //     'Environment',
-  //     'Jobs',
-  //     'Privacy Policy',
-  //     'Contact Us',
-  //   ],
-  // },
   {
-    title: 'Our Clients',
-    links: ['fofus keychains','Artsy fusion','Mi fashion'],
+    title: 'Comes Under',
+    links: ['ORCI Organization'],
   },
 ];
-
-// export const FOOTER_CONTACT_INFO = {
-//   title: 'Contact',
-//   links: [
-//     {
-//       label: 'Email Us',
-//       value: 'infomantoworld@gmail.com', 
-//       href: 'mailto:infomantoworld@gmail.com',
-//     },
-//   ],
-// };
 
 export const SOCIALS = {
   title: 'Social',

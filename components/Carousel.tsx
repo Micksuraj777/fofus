@@ -48,6 +48,16 @@ const Carousel = () => {
           
           title="Cups Keychain"
         />
+        <CampSite 
+          backgroundImage="bg-bg-img-6"
+          
+          title="Tiger paw Keychain"
+        />
+        <CampSite 
+          backgroundImage="bg-bg-img-7"
+          
+          title="Brawl Keychain"
+        />
       </div>
 
       <div className="flexEnd mt-2 px-6 lg:-mt-96 lg:mr-6">

@@ -9,32 +9,14 @@ const Footer = () => {
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/">
-            <h1 className="font-thin text-4xl">ORCI</h1>
+          <img src="/fofus-removebg-preview.png" alt="logo" className="w-[250px] h-[250px]" />
           </Link>
-
-          {/* <div className="flex flex-col gap-5">
-              <FooterColumn title={FOOTER_CONTACT_INFO.title}>
-                {FOOTER_CONTACT_INFO.links.map((link) => (
-                  <Link
-                    href={link.href}
-                    key={link.label}
-                    className="flex gap-4 md:flex-col lg:flex-row"
-                  >
-                    <p className="whitespace-nowrap">{link.label}:</p>
-                    <p className="medium-14 whitespace-nowrap text-blue-70">
-                      {link.value}
-                    </p>
-                  </Link>
-                ))}
-              </FooterColumn>
-            </div> */}
-
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1 md:justify-around">
             {FOOTER_LINKS.map((columns) => (
               <FooterColumn title={columns.title}>
-                <ul className="regular-14 flex flex-col gap-4 text-gray-30">
+                <ul className="regular-14 flex flex-col gap-4 text-gray-500">
                   {columns.links.map((link) => (
-                    <Link href="/" key={link}>
+                    <Link href="https://lander.orci.in/" target="_blank" key={link}>
                       {link}
                     </Link>
                   ))}
@@ -58,7 +40,7 @@ const Footer = () => {
 
         <div className="border bg-gray-20" />
         <p className="regular-14 w-full text-center text-gray-30">
-          2024 ORCI | All rights reserved
+          2024 Fofus keychains | All rights reserved
         </p>
       </div>
     </footer>

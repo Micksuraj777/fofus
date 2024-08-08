@@ -5,17 +5,28 @@ const Guide = () => {
   return (
     <section className="flexCenter flex-col">
       <div className="padding-container max-container w-full pb-24">
-        <Image src="/orci.png" alt="camp" width={50} height={50} />
-        <p className="uppercase regular-18 -mt-1 mb-3 text-blue-900">
-          We are here for you
-        </p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
-          <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">Guide You to Easy Path</h2>
-          <p className="regular-16 text-gray-30 xl:max-w-[520px]">At ORCI, our mission is to empower small-scale businesses and support their growth. Our team of dedicated experts is committed to enhancing the appeal and professionalism of your business. Let us guide you on the path to success and help you reach new heights</p>
+          <h2 className="bold-40 lg:bold-64 xl:max-w-[400px]">How It Works ?</h2>
+          <ul className="regular-16 text-gray-500 xl:max-w-[520px] list-disc">
+            <li>
+              <strong>Browse Our online store:</strong>Explore our extensive range of keychains and find the one that
+              speaks to you.
+            </li>
+            <li>
+              <strong>Customize :</strong>Use our customization tool to add your personal touch.
+            </li>
+            <li>
+              <strong>Place Your Order:</strong> Enjoy a seamless shopping experience with our secure checkout
+              process.
+            </li>
+            <li>
+              <strong>Fast & Reliable delivery:</strong>Get your custom creations delivered with care and precision.
+            </li>
+          </ul>
         </div>
       </div>
 
-      <div className="flexCenter max-container relative w-full">
+      {/* <div className="flexCenter max-container relative w-full">
         <Image 
           src="/business.jpeg"
           alt="boat"
@@ -44,7 +55,7 @@ const Guide = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }
